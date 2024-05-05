@@ -1,0 +1,76 @@
+body{
+    background-color: beige;
+}
+.personajes{
+    color:black;
+    font-family: random;
+}
+.texto{
+    text-align: justify;
+}
+.titulo{
+    color:rgb(206, 209, 37); 
+    font-family:random;
+    font-size: 50px;
+    text-align: center;
+  }
+@font-face {
+    font-family:random;
+    src: url(SimpsonfontDEMO.otf);
+}
+
+    
+
+.imagenciu{
+    width: 75%;
+    height: max-content;
+}
+
+.esquina{
+    width: 7%;
+    position: fixed;
+    left: 50px;
+    top:30px
+}
+
+.contenedor{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.txt{
+    margin-right: 10px;
+}
+.imagen{
+    width: 200px;
+    height: max-content;
+}
+.imagen2{
+    width: 500px;
+    height: max-content;
+}
+.descripcion{
+    text-align: justify;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.azulpe{
+    background-color: blue;
+}
+
+.top{
+    background-color: rgb(80, 42, 28);
+}
+
+.rojope{
+    background-color: rgb(255, 0, 0);
+}
+
+.lista{
+    list-style: circle;
+}
